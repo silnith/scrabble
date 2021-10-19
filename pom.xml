@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.silnith.scrabble</groupId>
+	<artifactId>scrabble-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Scrabble Parent</name>
+	<description>A multi-module project for a game of Scrabble.</description>
+	<url>https://github.com/silnith/scrabble</url>
+	<inceptionYear>2021</inceptionYear>
+	<organization>
+		<url>https://silnith.org</url>
+	</organization>
+	<scm>
+		<url>https://github.com/silnith/scrabble</url>
+		<connection>scm:git:https://github.com/silnith/scrabble.git</connection>
+		<developerConnection>scm:git:ssh://github.com/silnith/scrabble.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<issueManagement>
+	</issueManagement>
+	<ciManagement>
+	</ciManagement>
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<modules>
+		<module>scrabble-game</module>
+	</modules>
+	<dependencyManagement></dependencyManagement>
+	<dependencies></dependencies>
+	<build></build>
+	<reporting></reporting>
+</project>
